@@ -6,6 +6,7 @@ minetest.register_node("usl:Activated_stone",{
     paramtype = "glasslike",
     groups = {cracky = 3, glass=2},
     light_source = 14,
+    sounds = default.node_sound_glass_defaults(),
 })
 
 minetest.register_ore({
